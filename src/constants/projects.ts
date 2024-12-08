@@ -1,5 +1,5 @@
 import imageGofilm from "../assets/gofilm.png";
-import imageTastyBites from "../assets/tastyBites.png";
+import imageTastyBites from "../assets/tastybites.png";
 import imageEasyRent from "../assets/easyRent.png";
 import imagePortfolio from "../assets/portfolio.png";
 
