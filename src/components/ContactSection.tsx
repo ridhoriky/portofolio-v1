@@ -22,9 +22,9 @@ const ContactSection: React.FC = () => {
       >
         Contact <span className="font-thin">Me</span>
       </motion.h2>
-      <div className="flex gap-12">
+      <div className="md:flex gap-12">
         <motion.div
-          className="w-2/5"
+          className="w-full md:w-2/5"
           initial="hidden"
           whileInView="visible"
           variants={itemVariants}
@@ -38,7 +38,7 @@ const ContactSection: React.FC = () => {
             opportunity, or just a chat, feel free to reach out!
           </p>
         </motion.div>
-        <div className="w-3/5">
+        <div className="w-full md:w-3/5 mt-5 md:mt-0">
           {/* Follow Me Section */}
           <motion.div
             className="mb-8 flex justify-between items-center border-b pb-4 border-b-lightGray/50"

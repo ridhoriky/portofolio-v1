@@ -6,7 +6,7 @@ const HeroSection: React.FC = () => {
   return (
     <section
       id="hero"
-      className="h-screen flex flex-col justify-center items-center bg-light dark:bg-gray text-gray dark:text-light"
+      className="h-screen flex flex-col justify-center items-center bg-light dark:bg-gray text-gray dark:text-light px-[15%]"
     >
       <motion.h1
         className="text-4xl md:text-6xl font-bold mb-4 text-center"

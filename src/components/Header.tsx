@@ -48,7 +48,7 @@ const Header: React.FC = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={toggleMobileMenu}
-          className="md:hidden text-gray focus:outline-none"
+          className="md:hidden text-gray focus:outline-none dark:text-light"
         >
           {isMobileMenuOpen ? <FaX size={24} /> : <FaBars size={24} />}
         </button>
@@ -66,18 +66,15 @@ const Header: React.FC = () => {
           className={`md:hidden bg-light text-dark overflow-hidden dark:bg-gray dark:text-light`}
         >
           <nav className="space-y-4 px-6 py-4">
-            <a href="#about" className="block">
-              About Me
-            </a>
-            <a href="#skills" className="block">
-              Skills
-            </a>
-            <a href="#projects" className="block">
-              Project
-            </a>
-            <a href="#contact" className="block">
-              Contact
-            </a>
+            {navItems.map((item) => (
+              <a
+                key={item.id}
+                href={item.href}
+                className="block hover:text-blue"
+              >
+                {item.name}
+              </a>
+            ))}
             <DarkModeToggle />
           </nav>
         </motion.div>
