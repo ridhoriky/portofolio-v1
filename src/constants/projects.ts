@@ -41,7 +41,7 @@ export const projects = [
       "Portfolio V1 is a professional personal portfolio website showcasing skills, projects, and experiences. Built using React, TailwindCSS, and TypeScript, it features a sleek design and smooth navigation, emphasizing performance and responsive design to highlight my work effectively.",
     tech: ["React", "TailwindCss", "TypeScript", "Framer Motion"],
     img: imagePortfolio,
-    link: "https://github.com/ridhoriky/",
-    github: "https://github.com/ridhoriky/",
+    link: "https://portofolio-ridho-v1.vercel.app/",
+    github: "https://github.com/ridhoriky/portofolio-v1",
   },
 ];
